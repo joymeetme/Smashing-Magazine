@@ -30,12 +30,13 @@ img{
    padding-top: 40px;
    margin-left: 20px;
    margin-right: 20px;
+   
 }
 
 .main-nav-links li{
     display:inline-flex;
     list-style: none;
-    color:black;
+    color:#fff;
     font-size: 16px;
     line-height: 22px;
     margin-top: 40px;
@@ -63,12 +64,10 @@ img{
     margin-bottom: 0;
 }
 
-
-
-
 .btn-nav-links:active {
     border-radius: 11px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+   
 }
 
 .nav-links:hover {
@@ -85,12 +84,11 @@ img{
 }
 
 
-
 .btn-nav-links img {
     width: 3rem;
     align-items:center;
     padding: 0;
-    margin-left: 10px;
+    margin-left: 5px;
     margin-bottom: 0;
 }
 .search-box{
@@ -100,14 +98,15 @@ img{
 }
     
 #search-section{
-    padding-left:10px;
+    padding-left:3rem;
+background-image:url(./images/search-icon.svg);
     background-repeat: no-repeat;
-    background-size: 10px;
-    background-position: 75em 50%;
-    font-size: 20px;
+    background-size: 22px auto;
+    background-position: 0.75em 50%;
+    font-size: 1rem;
     border-radius: 11px;
-    padding-top: 10px;
-    padding-bottom: 5px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     font-weight: 700;
     box-shadow: 
     0 13px 27px -5px rgba(50, 50, 93, 0.25),
@@ -117,10 +116,7 @@ img{
     margin-top: 35px;
     margin-left: 10px;
     margin-right: 5px;
-    margin-bottom: 70px;
-}
-#submit{
-    color: #000;
+    
 }
 
 .container{
@@ -139,27 +135,26 @@ img{
     padding-top:0;
     align-items: center;
     background: rgba(24, 22, 165, 0.651);
-}
-.notify-article {
-    font-size:30px;
-    background:rgba(24, 22, 165, 0.651);
+    font-size:20px;
     font-weight: 700;
+    font-family:florence,cursive;
     width:fit-content;
+   
 }
 .first-notify{
     margin-top: 40px;
     padding: 10px 10px 0 10px;
-    color:#000;
+    color:#fff;
 }
 .second-notify{
     margin-bottom: 40px;
     padding: 0 10px 10px 10px;
-    color:#000;
+    color:#fff;
 }
 .third-notify{
     margin-bottom: 40px;
     padding: 0 10px 10px 10px;
-    color:#000;
+    color:#fff;
 }
 
 .articles{
@@ -167,9 +162,9 @@ img{
     display:grid;
     grid-template-columns: repeat(2, 1fr );
     grid-gap:1em;
-   margin-top:3em;
     grid-template-rows: repeat(2, 1fr);
     align-items:center;
+    font-family:cursive;
 }
 
 
@@ -178,9 +173,12 @@ img{
     text-align:left;
     padding:80px;
     position:relative;
+    
 }
 .article1{
     background:#db7093;
+    
+   
 }
 .article2{
     background:#ffdab9;
@@ -216,6 +214,11 @@ img{
 .author{
     display:inline-flex;
     margin-bottom: 20px;
+}
+.author-post p{
+    color:#000;
+    padding-top:10px;
+
 }
 .photo{
     background: 0 0;
